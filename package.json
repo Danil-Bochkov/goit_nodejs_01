@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-homework",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://danil-bochkov.github.io/goit_nodejs_01/",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "shortid": "^2.2.16",
+    "yargs": "^17.6.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
